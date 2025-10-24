@@ -156,10 +156,10 @@
           "axis": {"title": "Number of Accidents"}
         },
         "color": {
-          "field": "dayOfWeek",
-          "type": "nominal",
+          "aggregate": "count",
+          "type": "quantitative",
           "scale": {"scheme": "blues"},
-          "legend": {"title": "Day"}
+          "legend": {"title": "Accidents"}
         },
         "tooltip": [
           {"field": "dayOfWeek", "type": "nominal", "title": "Day"},
@@ -293,4 +293,5 @@
   </script>
 </body>
 </html>
+
 
